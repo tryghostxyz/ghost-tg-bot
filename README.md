@@ -22,7 +22,7 @@ This example demonstrates monitoring deposits for Zeru Finance.
 - npm or yarn
 - A Telegram account
 - Access to [Ghost](https://app.ghostlogs.xyz/)
-- Follow [this blog article](https://docs.tryghost.xyz/blog/blog/query_data_with_ghost_for_telegram_bot_on_berachain) for step-by-step walkthrough
+- Follow [this blog article](https://docs.tryghost.xyz/blog/build_a_telegram_bot_with_ghost) for step-by-step walkthrough
 
 ## 🔧 Configuration
 
