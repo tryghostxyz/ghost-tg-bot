@@ -1,0 +1,53 @@
+{
+  "name": "ghost-tg-bot",
+  "description": "Example: Build and power a Telegram bot with Ghost. A Telegram bot that monitors and announces new deposits using Ghost",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "Telegram Bot",
+    "Ghost",
+    "GhostGraph",
+    "Blockchain",
+    "Monitoring",
+    "Deposits"
+  ],
+  "author": "Chris <chris@tryghost.xyz>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tryghostxyz/ghost-tg-bot-private"
+  },
+  "bugs": {
+    "url": "https://github.com/tryghostxyz/ghost-tg-bot-private/issues"
+  },
+  "homepage": "https://github.com/tryghostxyz/ghost-tg-bot-private#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "npm run clean && tsc",
+    "dev": "tsx watch src/index.ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "grammy": "^1.20.3",
+    "graphql-request": "^6.1.0",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
